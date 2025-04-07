@@ -25,15 +25,16 @@ export default function Home() {
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-12 md:mb-0">
             <div className="bg-orange-800 bg-opacity-30 hover:text-orange-500 inline-block px-4 py-2 rounded-full mb-6">
-              Chơi cùng nhau. Vui cùng nhau. Thông qua SportInk.
+            QUACK UP YOUR GAME!
             </div>
             
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Kênh kết nối cộng đồng thông qua <span className="text-orange-400">Thể thao</span> & <span className="text-orange-400">Và các hoạt động</span>
+              Kênh kết nối cộng đồng <span className="text-orange-400">thông qua Thể thao</span> & <span className="text-orange-400">các hoạt động khác</span>
             </h2>
             
             <p className="mb-8 text-gray-300">
-              Sport Ink là một kênh kết nối cộng đồng thông qua thể thao và các hoạt động. Với mục tiêu tạo ra một cộng đồng thông tin và chia sẻ về các thể thao, Sport Ink cung cấp cho người dùng một nền tảng để tìm kiếm và tham gia vào các hoạt động thể thao, từ thể thao cá nhân đến thể thao tổ chức.
+              Sport Ink 
+              kết nối những cá nhân đang tìm kiếm đồng đội cho nhiều môn thể thao khác nhau thông qua hệ thống ghép đôi của mình. Nó cho phép người dùng thiết lập khu vực chơi. Với sự nhấn mạnh vào cộng đồng, ứng dụng có tính năng trò chuyện nhóm và nâng cao trải nghiệm thể thao tổng thể.
             </p>
             
             <div className="flex space-x-4">
@@ -82,11 +83,7 @@ export default function Home() {
 
       {/* Testimonial Section */}
       <section className="container mx-auto px-6 py-16 text-center">
-        <h3 className="text-4xl font-bold mb-4">
-          3,583 khách hàng có trải nghiệm tuyệt vời cùng 
-          Sport<span className="text-orange-500"> Ink</span>
-          {/* <span className="text-green-400">GoActive</span> */}
-        </h3>
+       
         {/* <p className="text-gray-300 max-w-2xl mx-auto">
           Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry&apos;s
         </p> */}
