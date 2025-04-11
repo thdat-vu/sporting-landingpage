@@ -21,7 +21,7 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section className="container mx-auto px-6 py-12">
+      <section className="container mx-auto px-6 pt-0 pb-12">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-12 md:mb-0">
             <div className="bg-orange-800 bg-opacity-30 hover:text-orange-500 inline-block px-4 py-2 rounded-full mb-6">
@@ -58,13 +58,16 @@ export default function Home() {
           </div>
           
           <div className="md:w-1/2 flex justify-center">
-            <Image
-              src="/phone-mockup.png"
-              alt="GoActive App"
-              width={400}
-              height={800}
-              priority
-            />
+            {/* Video with larger responsive sizing */}
+            <div className="relative w-full max-w-[500px] h-0 pb-[177.78%]">
+              <iframe
+                src="/FINAL.mp4"
+                title="Sport Ink App Demo"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="absolute top-0 left-0 w-full h-full rounded-3xl"
+              ></iframe>
+            </div>
           </div>
         </div>
       </section>
